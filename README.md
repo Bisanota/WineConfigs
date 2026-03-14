@@ -15,7 +15,7 @@ Files are for activate **Timelapse** and **Export Animation**
 
 
 ## About FL Studio
-Less tricky. **No aditional files, but some libraries needed**
+Less tricky. **Aditional files under "fl" folder, and some libraries needed**
 
 
 Thanks [parka6060](https://github.com/parka6060) for Clip Studio Paint files in Wine
