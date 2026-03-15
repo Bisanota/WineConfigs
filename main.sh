@@ -12,7 +12,8 @@ wineboot
 clear
 
 echo "Installing with winetricks some requeriments for CSP and FL Studio"
-winetricks -q -f corefonts allcodecs wmp10 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2022 vcrun6sp6 vcrun6 vkd3d msxml4 msxml6 mfc40 mf42 dotnet20sp1 dxvk d3dx9 d3dx10
+winetricks -q -f corefonts allcodecs wmp10 vcrun2005 vcrun2008 vcrun2010 vcrun2012 vcrun2013 vcrun2022 vcrun6sp6 vcrun6 vkd3d msxml4 msxml6 mfc40 mf42 dotnet20sp1 dxvk 
+winetricks -q -f d3dx9 d3dx10
 sleep 1
 
 echo "Installing files for CSP"
