@@ -10,6 +10,7 @@ echo "Starting initial Wine config"
 sleep 1
 wineboot
 clear
+rm -r ~/.cache/winetricks
 
 echo "Installing with winetricks some requeriments for CSP and FL Studio"
 winetricks -q -f corefonts allcodecs wmp10 vkd3d msxml4 msxml6 mfc40 mf42 dotnet20sp1 dxvk 
@@ -18,6 +19,7 @@ winetricks -q -f d3dx9 d3dx10 d3dx11_43
 winetricks -q -f dotnet40 dotnet48 dotnetcoredesktop3
 winetricks -q -f d3dcompiler_47 gmdls
 winetricks -q -f allfonts cjkfonts
+rm -r ~/.cache/winetricks
 sleep 1
 
 echo "Installing files for CSP"
